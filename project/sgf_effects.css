@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+	Semester Project
+	
+	Studio Ghibli Fan Web Page
+	Author: ke guan
+    Date:   7/25/2017  
+	
+	Filename: sgf_effects.css
+*/
+
+/* HTML Styles */
+
+strong {
+	font-weight: bold;
+}
+
+body {
+    background-color: rgba(151, 151, 151, 0.5);
+	background: radial-gradient(circle closest-corner at 100% 100%, 
+								white 15%,rgba(151, 151, 151, 0.5) 50%),
+				radial-gradient(closest-side at 10% 20%, white 20%, 
+								rgba(0,0,0,0) 45%),
+				radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0) 40%);
+	box-shadow:rgb(31, 31, 31) 30px 0px 45px,rgb(31, 31, 31) -30px 0px 45px;
+	border-top: 2px solid rgb(171, 171, 171);
+	
+}
+
+
+
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+	New Perspectives on HTML5 and CSS3, 7th Edition
+	Semester Project
+	
+	Studio Ghibli Fan Web Page
+	Author: ke guan
+    Date:   7/25/2017  
+	
+	Filename: sgfan_Apply.html
+	
+	-->
+	
+	 <meta charset="utf-8" />
+	 <title>Ghibli Fan</title>
+	 <link href="sgf_base.css" rel="stylesheet" />
+	 <link href="sgf_layout.css" rel="stylesheet" />
+	 <link href="sgf_effects.css" rel="stylesheet" />
+	 <link href="sgf_style5.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav class="horizontal">
+			<ul>
+				<li><a href="sgfan_home.html">Home</a></li>
+				<li><a href="sgfan_movies.html">Movie</a></li>
+				<li><a href="sgfan_museums.html">Museums</a></li>
+				<li><a href="sgfan_apply.html">Apply</a></li>
+				<li><a href="sgfan_all.html">All</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<form action="" method="post" encypt="">
+		<h1>Be a Ghibli Fan</h1>
+		<h2>Apply to get more information about Studio Ghibli</h2>
+		<fieldset id="perInfo" >
+			<legend>Personal Informaiton</legend>
+			
+			<div class="formRow">
+			<label>
+			Name
+			<input name="name" id="name" type="text"  placeholder="first and last name"/>
+			</label>
+			</div>
+			
+			<div class="formRow">
+			<label>Gender</label>
+			<field >
+			<input name="gender" id="female" value="f" type="radio" />
+			<label for="female">female</label>
+			<input name="gender" id="male" value="m" type="radio" />
+			<label for="male">male</label>
+			</field>
+			</div>
+			
+			<div class="formRow">
+			<label for="age">Age</label>
+			<select name="age" id="age">
+			<option value="<10">under 10 years old</option>
+			<option value="10-16">10-16 years old</option>
+			<option value="17-22">17-22</option>
+			<option value="23-30">23-30</option>
+			<option value=">30">greater then 30 years old</option>
+			</select>
+			</div>
+			
+			<div class="formRow">
+			<label>
+			Street address
+			<input name=""street" id="street" type="text" />
+			</label>
+			</div>
+			
+			<div class="formRow">
+			<label>
+			City
+			<input name="city" id="city" type="text" />
+			</label>
+			</div>
+			
+			<div class="formRow">
+			<label>
+			State
+			<input name="state" id="state" type="text" />
+			</label>
+			</div>
+			
+			<div class="formRow">
+			<label>
+			Postal code
+			<input name="zip" id="zip" type="text" placeholder="nnnnn (-nnnn)" />
+			</label>
+			</div>
+			
+			<div class="formRow">
+			<label>
+			E-mail
+			<input name="email" id="email" type="email">
+			</label>
+			</div>
+			
+			<input name="informe" id="mailCB" value="yes" type="checkbox" />
+			<label for="mailCB">Mail me if there is any new activity.</label>
+			
+			
+		</fieldset>
+		
+		<fieldset id="Reason" >
+			<legend>Favorite</legend>
+			<textarea name="favorite">Your favorite movie</textarea>
+			
+			<label for="reason">Reason</label>
+			<textarea name="reason" id="reason" ></textarea>
+			
+			
+		</fieldset>
+		
+		<div id="buttons">
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Reset" />
+		</div>
+	</form>
+	
+	<footer>
+	 <p>Be a Studio Ghibli Fan, please contact us. </p> &#9829; 
+	  <a href="mailto:@example.com">Send Mail</a> &#9829; 
+	  <a href="tel:777-777-7777">call 777-777-7777</a>
+	</footer>
+</body>
+</html>

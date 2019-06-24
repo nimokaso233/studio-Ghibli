@@ -1,0 +1,130 @@
+charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+	Semester Project
+	
+	Studio Ghibli Fan Web Page
+	Author: ke guan
+    Date:   7/25/2017  
+	
+	Filename: sgf_style1.css
+
+*/
+
+
+
+
+
+section.right div h1 {
+   color: rgb(31, 31, 31);
+   font-size: 34px;
+   font-family: 'Courier New', courier, monospace;
+   font-weight: bold;
+   margin: 20px 0px 20px 20px;
+   
+}
+
+section.right div p {
+   float: left;
+   font-size:14px;
+   margin: 0px 0px 14px 14px;
+   color: rgb(31, 31, 31);
+   font-family: Verdana, Geneva, sans-serif, serif;
+
+}
+
+
+
+
+
+section aside h1 {
+	font-size: 20px;
+	padding-bottom:5px;
+}
+
+h1 {
+	text-shadow: 3px 2px grey;
+	padding:10px;
+}
+
+aside h2{
+	text-align: center;
+	padding:10px;
+}
+aside#music li {
+	font-size:15px;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+aside#links {
+	margin-top:60px;
+}
+
+aside nav li {
+	text-weight: bold;
+	font-size:15px;
+	text-align: center;
+	padding: 5px;
+}
+
+aside nav li a {
+	text-weight: bold;
+	font-size:15px;
+	color: white;
+	padding: 5px;
+}
+
+
+aside nav li a:active, aside nav li a:hover {
+	color: black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

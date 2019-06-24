@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+	Semester Project
+	
+	Studio Ghibli Fan Web Page
+	Author: ke guan
+    Date:   7/25/2017  
+	
+	Filename: sgf_style2.css
+
+*/
+
+table {
+	margin: 30px;
+	border-sapcing:5px;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table {
+	border: 3px solid black;
+}
+
+th,td {
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+caption {
+	font-size:28px;
+	font-weight: bold;
+	padding:15px;
+	text-shadow: 1px 1px grey;	
+}
+
+table tr:nth-child(odd) {
+	color:#eee;
+	
+}

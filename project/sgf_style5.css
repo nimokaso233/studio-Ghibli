@@ -1,0 +1,80 @@
+charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+	Semester Project
+	
+	Studio Ghibli Fan Web Page
+	Author: ke guan
+    Date:   7/25/2017  
+	
+	Filename: sgf_style5.css
+
+*/
+
+
+div{
+	display: -webkit-flex;
+	display: flex;
+	-web-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 30px 30px;
+	padding:30px;
+}
+
+form > fieldset {
+	background-color: rgba(241,232,200,0.4);
+	border-radius:20px;
+	-webkit-flex: 1 1 150px;
+	flex:1 1 150px;
+	font-size: 0.85em;
+	align: middle;
+	padding: 10px;
+	margin: 10px 40px;
+}
+
+legend {
+	color: black;
+	padding: 5px;
+}
+
+div:nth-of-type(3) {
+	margin:10px 0px;
+	padding:10px px;
+}
+
+textarea {
+	margin-top:10px;
+	height:100px;
+	width:95%;
+}
+
+input {
+	align: end;
+	margin:10px;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px grey;
+	font-size:24px;
+	margin:30px;
+	
+}
+
+h2 {
+	text-align: center;
+	font-size:15px;
+	
+}
+
+div#buttons {
+	text-align: center;
+	width:100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: 1.2em;
+	padding:5px;
+	margin: 15px;
+}
